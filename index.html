@@ -46,117 +46,136 @@
 			
 		}
 		#home{
-			background-color : aquamarine;
-			top : 200px;
-			position :fixed;
 			bottom: 10px;
 			right: 10px;
+			margin-top: 100px;
+			float: right;
 		}
+		
+		#cabecera{
+		
+			background-color: aquamarine;
+			font-weight : bolder;
+			position: fixed;
+			width: 100%;
+			text-align: center;
+		}
+		#anadir{
+			border-radius : 8px 8px 8px 8px;
+			
+			background-color: aquamarine;
+			right: 70px;
+			overflow: hidden;
+			position:fixed;
+			float: left;
+			top: 700px;
+			font-size: 50px;
+			
+			
+		}
+		
 	</style>
 </head>
 
 <body>
     <div class="app">
+		<div id = "cabecera"> 
+			<h3>Contactos</h3>
+        </div>
       <div data-role="page" id="home">
-        <div data-role="header">
-              <h1>Portal del Mundo</h1>
+        <div data-role="header">  
         </div><!-- /header -->
         <div data-role="content">
-			<nav data-role="navbar">
-				<ul>
-					<li><a href="#home" class="ui-btn-active">Inicio</a></li>
-					<li><a href="#about">Portafolio</a></li>
-					<li><a href="#contact">Contactar</a></li>
-				</ul>
-			</nav><!-- /navbar -->
-			<div class="ui-grid-a">
-				<div class="ui-block-a fecha" style="width:12%">
-					<p>22</p>
-					<p>Marzo</p>
-					<p>2017</p>
-				</div>
-				<div class="ui-block-b contenido" style="width:88%">
-					<h3>Titulo</h3>
-					Lorem ipsum blablablabalbalbalbabalbalbalbalbalablablabbbñabañbabaabñabsñbasallllllllllllllllllllllllllllllllllllllllllllll
-					uasvdjkbagyjwvefdwiualdkahbahvdbaallahuakbarlasavsajksvajhvasagscahvsasnaksnak
-					Que pase una buena noche
-				</div>
-			</div><!-- /grid-a -->
-			<div class="ui-grid-a">
-				<div class="ui-block-a fecha" style="width:12%">
-					<p>13</p>
-					<p>Abril</p>
-					<p>2017</p>
-				</div>
-				<div class="ui-block-b contenido" style="width:88%">
-					<h3>Titulo</h3>
-					Lorem ipsum blablablabalbalbalbabalbalbalbalbalablablabbbñabañbabaabñabsñbasallllllllllllllllllllllllllllllllllllllllllllll
-					uasvdjkbagyjwvefdwiualdkahbahvdbaallahuakbarlasavsajksvajhvasagscahvsasnaksnak
-					Que pase una buena noche
-				</div>
-			</div><!-- /grid-a -->
-			<div class="ui-grid-a">
-				<div class="ui-block-a fecha" style="width:12%">
-					<p>3</p>
-					<p>Septiembre</p>
-					<p>2017</p>
-				</div>
-				<div class="ui-block-b contenido" style="width:88%">
-					<h3>Titulo</h3>
-					Lorem ipsum blablablabalbalbalbabalbalbalbalbalablablabbbñabañbabaabñabsñbasallllllllllllllllllllllllllllllllllllllllllllll
-					uasvdjkbagyjwvefdwiualdkahbahvdbaallahuakbarlasavsajksvajhvasagscahvsasnaksnak
-					Que pase una buena noche
-				</div>
-			</div><!-- /grid-a -->
-		</div><!--content-->
-        <div data-role="footer">
-                <h4>VIVA WILLYREX</h4>
-        </div><!-- /footer -->
-	 </div><!-- /page -->
-
-	 <div data-role="page" id="about">
-        <div data-role="header">
-              <h1>Portal del Mundo</h1>
-        </div><!-- /header -->
-        <div data-role="content">
-			<nav data-role="navbar">
-				<ul>
-					<li><a href="#home">Inicio</a></li>
-					<li><a href="#about" class="ui-btn-active">Portafolio</a></li>
-					<li><a href="#contact">Contactar</a></li>
-				</ul>
-			</nav><!-- /navbar -->
-            <p>This is a single page boilerplate template that you can copy to build your first jQuery Mobile page. Each link or form from here will pull a new page in via Ajax to support the animated page transitions.</p>		
-            <p>Just view the source and copy the code to get started. All the CSS and JS is linked to the jQuery CDN versions so this is super easy to set up. Remember to include a meta viewport tag in the head to set the zoom level.</p>
-            <p>This template is standard HTML document with a single "page" container inside, unlike a <a href="multipage-template.html" data-ajax="false">multi-page template</a> that has multiple pages within it. We strongly recommend building your site or app as a series of separate pages like this because it's cleaner, more lightweight and works better without JavaScript.</p>
-        </div><!-- /content -->
-        <div data-role="footer">
-                <h4>CERVESA MELORTO</h4>
-        </div><!-- /footer -->
-	 </div><!-- /page -->
-	   
-	 <div data-role="page" id="contact">
-        <div data-role="header">
-              <h1>Portal del Mundo</h1>
-        </div><!-- /header -->
-        <div data-role="content">
-			<nav data-role="navbar">
-				<ul>
-					<li><a href="#home">Inicio</a></li>
-					<li><a href="#about">Portafolio</a></li>
-					<li><a href="#contact" class="ui-btn-active">Contactar</a></li>
-				</ul>
-			</nav><!-- /navbar -->
-            <p>
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49786.08219371112!2d42.45205985086191!3d38.74924677582767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x400d566821fd9bc7%3A0x45e6ebf82beac95!2sAhlat%2C+13400+Uludere+K%C3%B6y%C3%BC%2FAhlat%2FProvincia+de+Bitlis%2C+Turqu%C3%ADa!5e0!3m2!1ses!2ses!4v1490175321646" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-			</p>
+			<div data-role="collapsible">
+				<h4>Camela</h4>
+				<p>
+					<b>Telf: </b>666666666
+				</p>
+				<p>
+					<b>Direccion: </b>Camela city
+				</p>
+				<p>
+					<b>GPS: </b>41°30'24.4"N 1°49'49.0"E
+				</p>
+				<p>
+				
+					<button type="button" class="ui-btn ui-btn-inline">Llama</button>
+						
+						
+					<button type="button" class="ui-btn ui-btn-inline">Más</button>
+						
+						
+					<button type="button" class="ui-btn ui-btn-inline">Edit</button>
+						
+					
+				</p>
+			</div>
 			
+			<div data-role="collapsible">
+				<h4>Saitama</h4>
+				<p>
+					<b>Telf: </b>111111111
+				</p>
+				<p>
+					<b>Direccion: </b>Ciudad Z
+				</p>
+				<p>
+					<b>GPS: </b>41°30'24.4"N 1°49'48.0"E
+				</p>
+				<p>
+				
+					<button type="button" class="ui-btn ui-btn-inline">Llama</button>
+						
+						
+					<button type="button" class="ui-btn ui-btn-inline">Más</button>
+						
+						
+					<button type="button" class="ui-btn ui-btn-inline">Edit</button>
+						
+					
+				</p>
+			</div>
+			
+			<div data-role="collapsible">
+				<h4>Rick Grimes</h4>
+				<p>
+					<b>Telf: </b>9999999999
+				</p>
+				<p>
+					<b>Direccion: </b>Atlanta
+				</p>
+				<p>
+					<b>GPS: </b>41°30'25.4"N 1°48'48.0"E
+				</p>
+				<p>
+				
+					<button type="button" class="ui-btn ui-btn-inline">Llama</button>
+						
+						
+					<button type="button" class="ui-btn ui-btn-inline">Más</button>
+						
+						
+					<button type="button" class="ui-btn ui-btn-inline">Edit</button>
+						
+					
+				</p>
+			</div>
+			
+			
+			
+		</div><!--content-->
+
+		
         <div data-role="footer">
-                <h4>ESTE ES MI HOGAR</h4>
+			
         </div><!-- /footer -->
-	</div><!-- /page -->
-	
-	
+	 </div><!-- /page -->
+	 
+	 
+	  		<div id = "anadir">
+			<button type = "button">&nbsp;+&nbsp;</button>
+			</div>
+			
     <script type="text/javascript" src="cordova.js"></script>
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/jquery.mobile.js"></script>
