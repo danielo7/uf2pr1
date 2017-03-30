@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/jquery.mobile.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.mobile.theme.css" />
+	<link rel="stylesheet" type="text/css" href="css/estil.css" />
+
+</head>
+	<body>
+
+		
+
+
+	<div class = "app">
+		
+		<div data-role="page">
+		
+			
+			<div data-role="header" id = "cabecera">
+			
+				<div> 
+					<h3>Mas->Pepe Gotera</h3>
+				</div>
+	
+			</div>
+			<div data-role="content">
+			
+				<div>
+
+				<iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2986.3444265750713!2d2.0395651512340116!3d41.54013917914872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a493a6d23d8561%3A0x6aa2940ff22df342!2sCarrer+d&#39;Am%C3%A8rica%2C+15%2C+08228+Terrassa%2C+Barcelona!5e0!3m2!1ses!2ses!4v1490862888710"></iframe>
+				</div>
+				<div>
+					<div>
+						<h4 id="nombre"> Pepe Gotera</h4>
+						<p name = "respuesta" id="telef">
+							<b >Telf: </b> 123456789
+						</p>
+						<p id = "direc">
+							<b >Direccion: </b> C/calle num 4 
+						</p>
+						<p id = "gps">
+							<b>GPS: </b> 41 30 25.4 N 1 48 48.0 E
+						</p>
+
+					</div>
+				</div>
+				
+				<div>
+					<div id = "abrir"> 
+
+						<button type="button" style="outline: none; background-color: aquamarine;  class="ui-btn ui-btn-inline" onClick="location.href='index.html'">Abrir en Maps</button>
+			
+					</div>
+					<div id = "cerrar"> 
+
+						<button type="button" style="outline: none; background-color: red; color: white;  class="ui-btn ui-btn-inline" onClick="location.href='index.html'">Cerrar</button>
+			
+					</div>
+				</div>
+				
+				
+			
+			
+			</div>
+		</div>	
+	</div>
+		
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.mobile.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript">
+    </script>
+</body>
+</html>
